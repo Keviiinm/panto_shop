@@ -29,6 +29,17 @@ p,a,button,input,li,label,select,textarea,span{
     --fs-title4: 18px;
 }
 /*! 5: DESKTOP */
+
+header{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url(../imgs/d2bee09011d0ef5c5aab59b69714774a45812d7d.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
 /*! 6: TABLET RESPONSIVE*/
 @media screen and (min-width:768px) and (max-width:1000px){
 
