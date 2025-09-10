@@ -283,6 +283,56 @@ header .bag-button .counter-products{
 #products .slick-arrow::before {
     color: #0d1b39;
 }
+#experiences{
+    width: 100%;
+    position: relative;
+    padding: 140px 0;
+}
+#experiences .cont-img{
+    position: relative;
+    left: -20px;
+}
+#experiences .cont-img::before{
+    content: "";
+    width: 300px;
+    height: 400px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: -60px;
+    border-radius: 20px;
+    
+}
+#experiences .cont-img::after{
+    content: "";
+    width: 495px;
+    height: 301px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: 60px;
+    right: 10px;
+    border-radius: 20px;    
+}
+#experiences .cont-img img{
+        box-shadow: -15px 16px 15px -10px #af7d43;
+}
+#experiences .cont-info{
+    padding: 10px 60px 0 0;
+}
+#experiences .cont-info h3{
+    color: var(--primary-color);
+    font-size: var(--fs-title4);
+    text-transform: uppercase;
+}
+#experiences .cont-info h2{
+    font-size: var(--fs-title2);
+}
+#experiences .cont-info p{
+    font-size: var(--fs-text);
+    color: var(--fs-text);
+}
+
 
 
 
