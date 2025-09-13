@@ -562,6 +562,135 @@ footer .cont-terminos{
 /*! 7: SMARTPHONE RESPONSIVE*/
 @media screen and (min-width:320px) and (max-width:767px){
 
+    /* .container{
+        overflow: hidden;
+    } */
+
+    body{
+        width: 100%;
+        
+        
+    }
+    header {
+        height: 100vh;
+        padding-top: 10px;
+        background-position: center;
+    }
+
+    #hero{
+        padding: 0;
+        width: 100%;
+        padding-top: 90px;
+        
+    }      
+        
+    
+    #hero p{        
+        font-size: 20px;        
+    }
+    #hero form input {
+        width: 100%;
+        font-size: 15px;
+        margin: 0;
+    }
+    #hero form button {
+        position: relative;
+        top: -48px;
+        right: -169px;
+    }
+    #hero h2 {        
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    #products ul{
+        width: 100%;
+        padding: 0;
+    }
+    #products .slick-arrow{
+        display: none;
+
+    }
+    
+   
+    #experiences img {
+        width: 440px;
+        position: relative;
+        left: -19px;
+        top: 20px;
+    }
+    #experiences .cont-info{
+        width: 100%;
+        padding: 70px 30px;
+    }
+    
+
+    #materials{
+        width: 100%;
+        padding: 0;
+    }
+    #materials .cont-info{
+        width: 100%;
+        padding: 0 30px;
+    }
+    #materials .cont-img-left img{
+        width: 200px;
+        position: relative;
+        top: 20px;
+    }
+    #materials .cont-img-right img{
+        width: 300px;
+        position: relative;
+        top: 30px;
+        right: -50px;
+    }
+    #materials .cont-info{
+        padding-top: 2px;
+    }
+
+    
+    #reviews .slick-track{
+        width: 100%;
+        
+    }
+    #reviews .slick-next slick-arrow .slick-track button{
+        display: none;
+    }
+    footer{
+        padding-top: 50px;
+        background: var(--gray-color);
+    }
+
+    header .bag-button{
+        display: none;
+    }
+
+    
+    header .navbar-collapse{
+        position: relative;
+        right: -1px;
+        background: #0000004d;
+    }
+    header .navbar-toggler{
+        background-color: var(--gray-color);
+    }
+    header #navbarNav li a{
+        font-size: 18px;
+        
+    }
+
+    footer{
+        text-align: center;
+    }
+    footer .cont-terminos{
+        text-align: center;
+        
+    }
+
+
+
+
+
     
 
 
