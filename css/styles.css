@@ -453,6 +453,7 @@ header .bag-button .counter-products{
 footer{
     overflow-x: hidden;
     background: #ebebeb;
+    padding-top: 70px;
 }
 footer h2{
     font-size: var(--fs-title3);
