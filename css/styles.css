@@ -203,6 +203,7 @@ header .bag-button .counter-products{
     color: var(--dark-color);
     padding: 10px 30px;
     border: none;
+    border-radius: 40px;
 }
 #products li button:hover{
     border: none;
@@ -451,6 +452,7 @@ header .bag-button .counter-products{
 
 footer{
     overflow-x: hidden;
+    background: #ebebeb;
 }
 footer h2{
     font-size: var(--fs-title3);
@@ -481,23 +483,86 @@ footer .cont-terminos{
 @media screen and (min-width:768px) and (max-width:1024px){
 
     header{
-        height: 140vh;
-        
+        height: 140vh;        
     }
     #hero p{        
-        font-size: 40px;        
+        font-size: 30px;        
     }
     #hero form input {
         width: 100%;
+        font-size: 24px;
     }
     #hero form button {
         position: relative;
-        top: -50px;
-        right: -270px;
+        top: -54px;
+        right: -169px;
+    }
+     #hero h2 {        
+        text-align: center;
+        font-size: 50px;
+    }
+    #products ul{
+        width: 600px;
+    }
+    #products .slick-arrow{
+        display: none;
+    }
+    #experiences img {
+        width: 440px;
+        position: relative;
+        left: -60px;
+        top: 60px;
+    }
+    
+    #materials .cont-img-left img{
+        width: 180px;
+        position: relative;
+        top: 20px;
+    }
+    #materials .cont-img-right img{
+        width: 300px;
+        position: relative;
+        top: 90px;
+        right: -50px;
+    }
+    #materials .cont-info{
+        padding-top: 2px;
     }
 
+    #reviews .slick-arrow{
+        display: none;
+    }
+    footer{
+        padding-top: 50px;
+        background: var(--gray-color);
+    }
+
+    header .bag-button{
+        display: none;
+    }
+
+    header .navbar-toggler-icon{
+        color: #e58411;       
+    }
+    header .navbar-collapse{
+        position: relative;
+        right: -550px;
+        background: #0000004d;
+    }
+    header .navbar-toggler{
+        background-color: var(--gray-color);
+    }
+    header #navbarNav li a{
+        font-size: 20px;
+    }
+    
+}
 
 
 /*! 7: SMARTPHONE RESPONSIVE*/
 @media screen and (min-width:320px) and (max-width:767px){
 
+    
+
+
+}
