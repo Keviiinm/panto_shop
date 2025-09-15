@@ -30,16 +30,18 @@ p,a,button,input,li,label,select,textarea,span{
 }
 /*! 5: DESKTOP */
 
-
+/* ^^HEADER */
 header{
     width: 100%;
     position: relative;
-    height: 210vh;
-    background: url(../imgs/d2bee09011d0ef5c5aab59b69714774a45812d7d.jpg);
+    height: 180vh;
+    background: 
+    linear-gradient(to bottom, rgba(255,255,255,0) 80%, white 100%),
+    url(../imgs/d2bee09011d0ef5c5aab59b69714774a45812d7d.jpg);
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
-    padding-top: 40px;
+    padding-top: 20px;    
 }
 
 .bg-transparent{
@@ -90,22 +92,27 @@ header .bag-button .counter-products{
     left: 10px;
 }
 
+/* ^^ HERO */
 #hero{
     width: 100%;
-    text-align: center;
-    
-    padding: 90px 200px;
+    text-align: center;    
+    padding: 40px 90px;
 }
 #hero h2{
     font-size: var(--fs-title1);
     color: var(--white-color);
-    font-weight: 600;
+    font-weight: 700;
+        
 }
+
 #hero p{
     color: var(--white-color);
     font-size: var(--fs-title3);
-    padding: 40px 45px;
+    padding: 40px 300px;
+    
 }
+
+
 #hero form{
     width: 100%;
     position: relative;
@@ -141,7 +148,8 @@ header .bag-button .counter-products{
     right: 61px;
 }
 
-/* ESTILOS MAIN */
+/* ^^ESTILOS MAIN */
+/* ^^CHOOSING US */
 #chossing-us{
     width: 100%;
     position: relative;
@@ -374,6 +382,7 @@ header .bag-button .counter-products{
     text-decoration: none;
 }
 
+/* ^^reviews */
 
 #reviews{
     width: 100%;
@@ -415,9 +424,9 @@ header .bag-button .counter-products{
     margin: 0 auto;
     border: 10px solid white;
     border-radius: 50%;
-    /* padding-left: 30px;
-    padding-right: 30px; */
+    
 }
+
 #reviews .card-review .cont-info h4{
     font-size: var(--fs-title3);
     color: var(--dark-color);
@@ -449,6 +458,7 @@ header .bag-button .counter-products{
     color: #0d1b39;
 }
 
+/* ^^FOOTER */
 
 footer{
     overflow-x: hidden;
