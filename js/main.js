@@ -81,6 +81,9 @@ $('.slider-review').slick({
 });
 });
 
+  AOS.init();
+
+
 
 
 
